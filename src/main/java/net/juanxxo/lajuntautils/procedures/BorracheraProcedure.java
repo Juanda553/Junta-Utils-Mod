@@ -18,6 +18,6 @@ public class BorracheraProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 600, 1, (false), (false)));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 200, 1, (false), (false)));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 300, 1, (false), (false)));
 	}
 }

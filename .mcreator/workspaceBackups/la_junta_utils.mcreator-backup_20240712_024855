@@ -23,7 +23,7 @@
       "name": "AguardienteTapaVerde",
       "type": "item",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "aguardiente_tapa_verde",
       "metadata": {
@@ -42,9 +42,54 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Borrachera",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borrachera",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/lajuntautils/procedures/BorracheraProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RepirarBajoAguaPurificada",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repirar_bajo_agua_purificada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/lajuntautils/procedures/RepirarBajoAguaPurificadaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "tragos",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -63,16 +108,19 @@
     "modid": "la_junta_utils",
     "modName": "La Junta Utils",
     "version": "1.0.0",
-    "author": "juanz, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "description": "Mod para cositas de La Junta :).",
+    "author": "Juanxxo553",
+    "websiteURL": "https://x.com/JuanDa553YT",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "pack",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Creado por Juanxxo553 usando MCreator.",
     "modElementsPackage": "net.juanxxo.lajuntautils",
     "lockBaseModFiles": false
   },
