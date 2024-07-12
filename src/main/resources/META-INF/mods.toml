@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="la_junta_utils"
+version="1.0.0"
+displayName="La Junta Utils"
+credits="Creado por Juanxxo553 usando MCreator."
+displayURL="https://x.com/JuanDa553YT"
+logoFile="logo.png"
+authors="Juanxxo553"
+description='''
+Mod para cositas de La Junta :).
+'''
+
+[[dependencies.la_junta_utils]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

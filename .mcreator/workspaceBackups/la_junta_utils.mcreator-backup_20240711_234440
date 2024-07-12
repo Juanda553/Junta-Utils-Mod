@@ -1,0 +1,98 @@
+{
+  "mod_elements": [
+    {
+      "name": "PurifiedWater",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/lajuntautils/fluid/types/PurifiedWaterFluidType.java",
+          "src/main/java/net/juanxxo/lajuntautils/fluid/PurifiedWaterFluid.java",
+          "src/main/resources/assets/la_junta_utils/models/block/purified_water.json",
+          "src/main/java/net/juanxxo/lajuntautils/block/PurifiedWaterBlock.java",
+          "src/main/java/net/juanxxo/lajuntautils/item/PurifiedWaterItem.java",
+          "src/main/resources/assets/la_junta_utils/models/item/purified_water_bucket.json",
+          "src/main/resources/assets/la_junta_utils/blockstates/purified_water.json"
+        ]
+      }
+    },
+    {
+      "name": "AguardienteTapaVerde",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aguardiente_tapa_verde",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/lajuntautils/item/AguardienteTapaVerdeItem.java",
+          "src/main/resources/assets/la_junta_utils/models/item/aguardiente_tapa_verde.json"
+        ]
+      }
+    },
+    {
+      "name": "LaJuntaUtilsTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "la_junta_utils_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Borrachera",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borrachera",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/lajuntautils/procedures/BorracheraProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.la_junta_utils.purified_water_bucket": "Cubo de agua purificada",
+      "block.la_junta_utils.purified_water": "Agua purificada",
+      "fluid.la_junta_utils.purified_water": "Agua purificada",
+      "item.la_junta_utils.aguardiente_tapa_verde": "Botella Aguardiente Tapa Verde",
+      "itemGroup.tabla_junta_utils_tab": "La Junta"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "la_junta_utils",
+    "modName": "La Junta Utils",
+    "version": "1.0.0",
+    "author": "juanz, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.juanxxo.lajuntautils",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

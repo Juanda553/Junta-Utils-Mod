@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "la_junta_utils:items/aguardiente-antioqueno-verde_375ml_png_800x1000px_transparente"
+  }
+}
