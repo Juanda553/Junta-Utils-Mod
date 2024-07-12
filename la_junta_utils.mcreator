@@ -124,6 +124,22 @@
           "src/main/resources/assets/la_junta_utils/models/item/zp_beam_fragment_purple.json"
         ]
       }
+    },
+    {
+      "name": "ZeroPointBeamPurple",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zero_point_beam_purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/la_junta_utils/models/item/zero_point_beam_purple.json",
+          "src/main/java/net/juanxxo/lajuntautils/block/ZeroPointBeamPurpleBlock.java",
+          "src/main/resources/assets/la_junta_utils/blockstates/zero_point_beam_purple.json",
+          "src/main/resources/assets/la_junta_utils/models/block/zero_point_beam_purple.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -137,6 +153,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.la_junta_utils.zero_point_beam_purple": "Zero Point Beam Blue",
       "item.la_junta_utils.purified_water_bucket": "Cubo de agua purificada",
       "block.la_junta_utils.purified_water": "Agua purificada",
       "fluid.la_junta_utils.purified_water": "Agua purificada",

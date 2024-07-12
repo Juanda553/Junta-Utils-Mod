@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "la_junta_utils:blocks/zero_point_beam_purple",
+    "up": "la_junta_utils:blocks/zero_point_beam_purple",
+    "north": "la_junta_utils:blocks/zero_point_beam_purple",
+    "east": "la_junta_utils:blocks/zero_point_beam_purple",
+    "south": "la_junta_utils:blocks/zero_point_beam_purple",
+    "west": "la_junta_utils:blocks/zero_point_beam_purple",
+    "particle": "la_junta_utils:blocks/zero_point_beam_purple"
+  },
+  "render_type": "translucent"
+}

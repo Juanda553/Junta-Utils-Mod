@@ -26,6 +26,7 @@ public class LaJuntaUtilsModItems {
 	public static final RegistryObject<Item> ZERO_POINT_BEAM_BLUE = block(LaJuntaUtilsModBlocks.ZERO_POINT_BEAM_BLUE, LaJuntaUtilsModTabs.TAB_LA_JUNTA_UTILS_TAB);
 	public static final RegistryObject<Item> ZP_BEAM_FRAGMENT_BLUE = REGISTRY.register("zp_beam_fragment_blue", () -> new ZpBeamFragmentBlueItem());
 	public static final RegistryObject<Item> ZP_BEAM_FRAGMENT_PURPLE = REGISTRY.register("zp_beam_fragment_purple", () -> new ZpBeamFragmentPurpleItem());
+	public static final RegistryObject<Item> ZERO_POINT_BEAM_PURPLE = block(LaJuntaUtilsModBlocks.ZERO_POINT_BEAM_PURPLE, LaJuntaUtilsModTabs.TAB_LA_JUNTA_UTILS_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

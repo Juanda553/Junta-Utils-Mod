@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "la_junta_utils:zero_point_beam_blue"
+    "la_junta_utils:zero_point_beam_blue",
+    "la_junta_utils:zero_point_beam_purple"
   ]
 }

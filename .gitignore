@@ -9,6 +9,7 @@
 /.idea/
 /.cache/
 mcmod.info
+/.mcreator/workspaceBackups/
 
 # Eclipse/IDEA/VSCode files
 /.classpath

@@ -9,5 +9,5 @@
     "west": "la_junta_utils:blocks/zero_point_beam_blue",
     "particle": "la_junta_utils:blocks/zero_point_beam_blue"
   },
-  "render_type": "cutout"
+  "render_type": "translucent"
 }

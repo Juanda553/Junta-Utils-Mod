@@ -26,8 +26,8 @@ import net.juanxxo.lajuntautils.init.LaJuntaUtilsModItems;
 import java.util.List;
 import java.util.Collections;
 
-public class ZeroPointBeamBlueBlock extends Block {
-	public ZeroPointBeamBlueBlock() {
+public class ZeroPointBeamPurpleBlock extends Block {
+	public ZeroPointBeamPurpleBlock() {
 		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(5000f, 1000000000f).lightLevel(s -> 15).requiresCorrectToolForDrops().friction(0.7000000000000001f).speedFactor(1.2f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
@@ -84,6 +84,6 @@ public class ZeroPointBeamBlueBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(LaJuntaUtilsModItems.ZP_BEAM_FRAGMENT_BLUE.get()));
+		return Collections.singletonList(new ItemStack(LaJuntaUtilsModItems.ZP_BEAM_FRAGMENT_PURPLE.get()));
 	}
 }

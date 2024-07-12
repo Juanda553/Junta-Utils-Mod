@@ -2,12 +2,12 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "zero_point_beam_blue",
-    "textureTop": "zero_point_beam_blue",
-    "textureLeft": "zero_point_beam_blue",
-    "textureFront": "zero_point_beam_blue",
-    "textureRight": "zero_point_beam_blue",
-    "textureBack": "zero_point_beam_blue",
+    "texture": "zero_point_beam_purple",
+    "textureTop": "zero_point_beam_purple",
+    "textureLeft": "zero_point_beam_purple",
+    "textureFront": "zero_point_beam_purple",
+    "textureRight": "zero_point_beam_purple",
+    "textureBack": "zero_point_beam_purple",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:ZpBeamFragmentBlue"
+      "value": "CUSTOM:ZpBeamFragmentPurple"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
