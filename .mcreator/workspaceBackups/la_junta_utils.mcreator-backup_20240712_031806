@@ -80,9 +80,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "ZeroPointBeamBlue",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zero_point_beam_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/la_junta_utils/models/item/zero_point_beam_blue.json",
+          "src/main/resources/assets/la_junta_utils/models/block/zero_point_beam_blue.json",
+          "src/main/resources/assets/la_junta_utils/blockstates/zero_point_beam_blue.json",
+          "src/main/java/net/juanxxo/lajuntautils/block/ZeroPointBeamBlueBlock.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "tragos",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -90,6 +113,7 @@
       "block.la_junta_utils.purified_water": "Agua purificada",
       "fluid.la_junta_utils.purified_water": "Agua purificada",
       "item.la_junta_utils.aguardiente_tapa_verde": "Botella Aguardiente Tapa Verde",
+      "block.la_junta_utils.zero_point_beam_blue": "Zero Point Beam Blue",
       "itemGroup.tabla_junta_utils_tab": "La Junta"
     }
   },
@@ -101,16 +125,19 @@
     "modid": "la_junta_utils",
     "modName": "La Junta Utils",
     "version": "1.0.0",
-    "author": "juanz, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "description": "Mod para cositas de La Junta :).",
+    "author": "Juanxxo553",
+    "websiteURL": "https://x.com/JuanDa553YT",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "pack",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Creado por Juanxxo553 usando MCreator.",
     "modElementsPackage": "net.juanxxo.lajuntautils",
     "lockBaseModFiles": false
   },

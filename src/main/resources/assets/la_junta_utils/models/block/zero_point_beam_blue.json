@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "la_junta_utils:blocks/zero_point_beam_blue",
+    "up": "la_junta_utils:blocks/zero_point_beam_blue",
+    "north": "la_junta_utils:blocks/zero_point_beam_blue",
+    "east": "la_junta_utils:blocks/zero_point_beam_blue",
+    "south": "la_junta_utils:blocks/zero_point_beam_blue",
+    "west": "la_junta_utils:blocks/zero_point_beam_blue",
+    "particle": "la_junta_utils:blocks/zero_point_beam_blue"
+  },
+  "render_type": "cutout"
+}
