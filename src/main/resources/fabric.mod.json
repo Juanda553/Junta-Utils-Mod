@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "junta_utils",
+  "version": "1.0.0",
+  "name": "Junta Utils",
+  "description": "Cositas para la Junta pa",
+  "authors": [
+    "JuanDa553"
+  ],
+  "contact": {
+    "homepage": "https://x.com/JuanDa553YT",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "icon": "assets/junta_utils/icon.png",
+  "accessWidener": "junta_utils.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.juanxxo.juntautils.JuntaUtilsMod"
+    ],
+    "client": [
+      "net.juanxxo.juntautils.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "junta_utils.mixins.json"
+  ]
+}

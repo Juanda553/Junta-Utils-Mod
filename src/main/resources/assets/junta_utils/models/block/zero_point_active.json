@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "junta_utils:block/zero_point_active_one",
+    "up": "junta_utils:block/zero_point_active_one",
+    "north": "junta_utils:block/zero_point_active_one",
+    "east": "junta_utils:block/zero_point_active_one",
+    "south": "junta_utils:block/zero_point_active_one",
+    "west": "junta_utils:block/zero_point_active_one",
+    "particle": "junta_utils:block/zero_point_active_one"
+  },
+  "render_type": "solid"
+}

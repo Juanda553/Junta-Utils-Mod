@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "junta_utils:zp_purple_laser",
+    "junta_utils:zp_blue_laser",
+    "junta_utils:zero_point_pasive",
+    "junta_utils:zero_point_active",
+    "junta_utils:zero_pint_active_two",
+    "junta_utils:zero_point_active_final"
+  ]
+}

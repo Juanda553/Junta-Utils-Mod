@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Junta Tab",
+    "icon": {
+      "value": "Items.SUGAR"
+    },
+    "showSearch": false
+  }
+}

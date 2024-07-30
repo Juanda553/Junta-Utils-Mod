@@ -1,0 +1,10 @@
+{
+  "block.junta_utils.zero_point_active": "Punto Cero Activo Fase 1",
+  "block.junta_utils.zero_point_active_final": "Punto Cero Agresivo",
+  "block.junta_utils.zero_point_pasive": "Punto Cero",
+  "block.junta_utils.zp_blue_laser": "Rayo Azul del Punto Cero",
+  "item_group.junta_utils.junta_tab": "Junta Tab",
+  "biome.junta_utils.impacto": "Impacto",
+  "block.junta_utils.zp_purple_laser": "Rayo Morado del Punto Cero",
+  "block.junta_utils.zero_pint_active_two": "Punto Cero Activo Fase 2"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "junta_utils:block/zp_beam_purple",
+    "particle": "junta_utils:block/zp_beam_purple"
+  },
+  "render_type": "translucent"
+}

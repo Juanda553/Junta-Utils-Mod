@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "zp_blue_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.5,
+    "height": 0.5,
+    "scale": 1.0,
+    "speedFactor": 0.5,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.1,
+    "angularAcceleration": 0.03,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
+  }
+}

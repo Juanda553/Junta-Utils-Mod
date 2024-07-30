@@ -1,0 +1,44 @@
+# MCreator files
+/.gradle/
+/out/
+/build/
+/run/
+/logs/
+/.gradle
+/.mc_patches/
+/.idea/
+/.cache/
+mcmod.info
+/.mcreator/workspaceBackups/
+
+# Eclipse/IDEA/VSCode files
+/.classpath
+/.project
+/.settings/
+/.vscode/
+/.idea/
+/*.iml
+*.ipr
+*.iws
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Java build files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Gradle files
+.gradle
+build/
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+*.swp

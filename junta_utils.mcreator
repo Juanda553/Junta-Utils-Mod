@@ -1,0 +1,353 @@
+{
+  "mod_elements": [
+    {
+      "name": "ZpBlueLaser",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zp_blue_laser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/block/ZpBlueLaserBlock.java",
+          "src/main/resources/assets/junta_utils/blockstates/zp_blue_laser.json",
+          "src/main/resources/assets/junta_utils/models/item/zp_blue_laser.json",
+          "src/main/resources/assets/junta_utils/models/block/zp_blue_laser.json"
+        ]
+      }
+    },
+    {
+      "name": "JuntaTab",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junta_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ZpPurpleLaser",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zp_purple_laser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junta_utils/models/item/zp_purple_laser.json",
+          "src/main/resources/assets/junta_utils/models/block/zp_purple_laser.json",
+          "src/main/java/net/juanxxo/juntautils/block/ZpPurpleLaserBlock.java",
+          "src/main/resources/assets/junta_utils/blockstates/zp_purple_laser.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeroPointPasive",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zero_point_pasive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/block/ZeroPointPasiveBlock.java",
+          "src/main/resources/assets/junta_utils/blockstates/zero_point_pasive.json",
+          "src/main/resources/assets/junta_utils/models/block/zero_point_pasive.json",
+          "src/main/resources/assets/junta_utils/models/item/zero_point_pasive.json"
+        ]
+      }
+    },
+    {
+      "name": "ZpBlueParticle",
+      "type": "particle",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zp_blue_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junta_utils/particles/zp_blue_particle.json",
+          "src/main/java/net/juanxxo/juntautils/client/particle/ZpBlueParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "ZpBlueParticleEmitter",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zp_blue_particle_emitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/procedures/ZpBlueParticleEmitterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamagePlayerZp",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_player_zp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/procedures/DamagePlayerZpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamagePalyerZpLvlTwo",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_palyer_zp_lvl_two",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/procedures/DamagePalyerZpLvlTwoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamagePlayerZpLvlFinal",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_player_zp_lvl_final",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/procedures/DamagePlayerZpLvlFinalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZeroPointActive",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zero_point_active",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junta_utils/blockstates/zero_point_active.json",
+          "src/main/java/net/juanxxo/juntautils/block/ZeroPointActiveBlock.java",
+          "src/main/resources/assets/junta_utils/models/item/zero_point_active.json",
+          "src/main/resources/assets/junta_utils/models/block/zero_point_active.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeroPintActiveTwo",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zero_pint_active_two",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junta_utils/blockstates/zero_pint_active_two.json",
+          "src/main/resources/assets/junta_utils/models/item/zero_pint_active_two.json",
+          "src/main/java/net/juanxxo/juntautils/block/ZeroPintActiveTwoBlock.java",
+          "src/main/resources/assets/junta_utils/models/block/zero_pint_active_two.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeroPointActiveFinal",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zero_point_active_final",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junta_utils/blockstates/zero_point_active_final.json",
+          "src/main/resources/assets/junta_utils/models/block/zero_point_active_final.json",
+          "src/main/java/net/juanxxo/juntautils/block/ZeroPointActiveFinalBlock.java",
+          "src/main/resources/assets/junta_utils/models/item/zero_point_active_final.json"
+        ]
+      }
+    },
+    {
+      "name": "CastigoLighning",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castigo_lighning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/procedures/CastigoLighningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CastigoJugador",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castigo_jugador",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juanxxo/juntautils/command/CastigoJugadorCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Impacto",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impacto",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junta_utils/worldgen/biome/impacto.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.junta_utils.zero_point_active": "Punto Cero Activo Fase 1",
+      "block.junta_utils.zero_point_active_final": "Punto Cero Agresivo",
+      "block.junta_utils.zero_point_pasive": "Punto Cero",
+      "block.junta_utils.zp_blue_laser": "Rayo Azul del Punto Cero",
+      "item_group.junta_utils.junta_tab": "Junta Tab",
+      "biome.junta_utils.impacto": "Impacto",
+      "block.junta_utils.zp_purple_laser": "Rayo Morado del Punto Cero",
+      "block.junta_utils.zero_pint_active_two": "Punto Cero Activo Fase 2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Punto Cero",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "junta_utils",
+    "modName": "Junta Utils",
+    "version": "1.0.0",
+    "description": "Cositas para la Junta pa",
+    "author": "JuanDa553",
+    "websiteURL": "https://x.com/JuanDa553YT",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "diomedeshead",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Creado con Mcreator",
+    "modElementsPackage": "net.juanxxo.juntautils",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
